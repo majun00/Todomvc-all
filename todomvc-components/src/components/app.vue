@@ -29,7 +29,6 @@
 			removeTodo(todo){
 				this.todos.$remove(todo)
 			},
-			// 组件传值
 			setFilter(filter){
 				this.visibility=filter
 			},
